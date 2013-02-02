@@ -1,0 +1,1822 @@
+2013/01/29 14:16:14 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:16 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:16 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:16 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:16 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:16 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:17 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:17 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:18 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:18 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:19 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:19 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:20 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:20 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:20 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/29 14:16:38 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getNpwp".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): CComponent->__call('getNpwp', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(38): SalesReportController->getNpwp('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 08:20:51 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(7): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (7)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 08:52:49 [error] [php] Undefined variable: cust (/var/www/pajak/protected/views/salesReport/lembar1.php:25)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#1 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#6 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#7 unknown(0): SalesReportController->actionView()
+#8 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#10 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#12 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#16 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#18 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#19 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#20 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/views/salesReport/lembar1.php (25)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+in /var/www/pajak/protected/controllers/SalesReportController.php (57)
+2013/01/30 08:53:08 [error] [php] Undefined variable: cust (/var/www/pajak/protected/views/salesReport/lembar1.php:25)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#1 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#6 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#7 unknown(0): SalesReportController->actionView()
+#8 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#10 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#12 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#16 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#18 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#19 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#20 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/views/salesReport/lembar1.php (25)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+in /var/www/pajak/protected/controllers/SalesReportController.php (57)
+2013/01/30 08:54:56 [error] [exception.CException] exception 'CException' with message 'Property "printWidget.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 /var/www/yii/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(SalesReportController), 'application.ext...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 /var/www/pajak/protected/views/salesReport/lembar1.php(13): CBaseController->widget('application.ext...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#5 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#7 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#8 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#9 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#10 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#12 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#13 [internal function]: SalesReportController->actionView('1')
+#14 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#15 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#16 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#23 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#25 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#26 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /var/www/pajak/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 08:55:53 [error] [exception.CException] exception 'CException' with message 'Property "printWidget.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 /var/www/yii/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(SalesReportController), 'application.ext...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 /var/www/pajak/protected/views/salesReport/lembar1.php(9): CBaseController->widget('application.ext...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#5 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#7 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#8 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#9 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#10 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#12 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#13 [internal function]: SalesReportController->actionView('1')
+#14 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#15 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#16 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#23 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#25 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#26 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /var/www/pajak/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 08:56:49 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(8): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (8)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:02:06 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(7): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (7)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:02:36 [error] [exception.CException] exception 'CException' with message 'SalesReportController has an extra endWidget() call in its view.' in /var/www/yii/framework/web/CBaseController.php:211
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(122): CBaseController->endWidget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#2 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#3 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#5 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#6 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#10 [internal function]: SalesReportController->actionView('1')
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:02:59 [error] [exception.CException] exception 'CException' with message 'SalesReportController has an extra endWidget() call in its view.' in /var/www/yii/framework/web/CBaseController.php:211
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(13): CBaseController->endWidget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#2 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#3 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#5 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#6 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#10 [internal function]: SalesReportController->actionView('1')
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:03:55 [error] [exception.CException] exception 'CException' with message 'SalesReportController has an extra endWidget() call in its view.' in /var/www/yii/framework/web/CBaseController.php:211
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(13): CBaseController->endWidget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#2 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#3 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#5 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#6 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#10 [internal function]: SalesReportController->actionView('1')
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:04:27 [error] [exception.CException] exception 'CException' with message 'Property "printWidget.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 /var/www/yii/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(SalesReportController), 'application.ext...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 /var/www/pajak/protected/views/salesReport/lembar2.php(13): CBaseController->widget('application.ext...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#5 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#7 /var/www/pajak/protected/views/salesReport/view.php(50): CController->renderPartial('lembar2', Array, true)
+#8 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#9 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#10 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#12 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#13 [internal function]: SalesReportController->actionView('1')
+#14 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#15 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#16 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#23 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#25 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#26 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /var/www/pajak/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:10:05 [error] [exception.CException] exception 'CException' with message 'SalesReportController has an extra endWidget() call in its view.' in /var/www/yii/framework/web/CBaseController.php:211
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(8): CBaseController->endWidget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#2 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#3 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#5 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#6 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#10 [internal function]: SalesReportController->actionView('1')
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:10:22 [error] [exception.CException] exception 'CException' with message 'SalesReportController has an extra endWidget() call in its view.' in /var/www/yii/framework/web/CBaseController.php:211
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(8): CBaseController->endWidget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#2 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#3 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#5 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#6 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#10 [internal function]: SalesReportController->actionView('1')
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:12:39 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(8): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (8)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:26:56 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(8): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (8)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:27:16 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(8): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (8)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:29:14 [error] [php] Undefined index: dua (/var/www/pajak/protected/views/salesReport/lembar1.php:9)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#1 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#6 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#7 unknown(0): SalesReportController->actionView()
+#8 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#9 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#10 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#11 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#12 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#14 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#16 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#18 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#19 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#20 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/views/salesReport/lembar1.php (9)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+in /var/www/pajak/protected/controllers/SalesReportController.php (57)
+2013/01/30 09:29:25 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(11): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (11)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:29:42 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(11): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (11)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:30:28 [error] [exception.CException] exception 'CException' with message 'Property "printWidget.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(162): CComponent->__set('0', '#print-wrapper')
+#1 /var/www/yii/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(SalesReportController), 'application.ext...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 /var/www/pajak/protected/views/salesReport/lembar1.php(11): CBaseController->widget('application.ext...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#5 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#7 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#8 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#9 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#10 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#12 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#13 [internal function]: SalesReportController->actionView('2')
+#14 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#15 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#16 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#23 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#25 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#26 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /var/www/pajak/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:33:01 [error] [exception.CException] exception 'CException' with message 'Property "printWidget.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /var/www/yii/framework/web/CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 /var/www/yii/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(SalesReportController), 'application.ext...', Array)
+#2 /var/www/yii/framework/web/CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 /var/www/pajak/protected/views/salesReport/lembar1.php(13): CBaseController->widget('application.ext...', Array)
+#4 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#5 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#6 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#7 /var/www/pajak/protected/views/salesReport/view.php(49): CController->renderPartial('lembar1', Array, true)
+#8 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#9 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#10 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#12 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#13 [internal function]: SalesReportController->actionView('2')
+#14 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#15 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#16 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#17 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#19 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#23 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#25 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#26 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#27 /var/www/pajak/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 09:34:30 [error] [php] Array to string conversion (/var/www/pajak/protected/extensions/print/printWidget.php:104)
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/lembar1.php(11): SalesReportController->widget()
+#1 /var/www/yii/framework/web/CBaseController.php(127): require()
+#2 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#3 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#4 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#5 /var/www/yii/framework/web/CBaseController.php(127): require()
+#6 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#7 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#8 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#9 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#10 unknown(0): SalesReportController->actionView()
+#11 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#12 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#14 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#15 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#16 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#17 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#19 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#21 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#22 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#23 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#24 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/extensions/print/printWidget.php (104)
+in /var/www/pajak/protected/views/salesReport/lembar1.php (11)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+2013/01/30 09:40:18 [error] [php] Illegal offset type in isset or empty (/var/www/yii/framework/YiiBase.php:267)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(173): SalesReportController->createWidget()
+#1 /var/www/pajak/protected/views/salesReport/lembar1.php(12): SalesReportController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#5 /var/www/pajak/protected/views/salesReport/view.php(49): SalesReportController->renderPartial()
+#6 /var/www/yii/framework/web/CBaseController.php(127): require()
+#7 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#8 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#9 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#11 unknown(0): SalesReportController->actionView()
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#22 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/views/salesReport/lembar1.php (12)
+in /var/www/pajak/protected/views/salesReport/view.php (49)
+in /var/www/pajak/protected/controllers/SalesReportController.php (57)
+2013/01/30 09:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "salesreport/viewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesreport/vie...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=salesreport/viewbuktipotong
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "salesreport/viewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesreport/vie...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=salesreport/viewbuktipotong
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "salesreport/viewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesreport/vie...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=salesreport/viewbuktipotong
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "salesreport/viewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesreport/vie...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=salesreport/viewbuktipotong
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:46:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "salesreport/viewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesreport/vie...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=salesreport/viewbuktipotong
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "salesreport/viewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesreport/vie...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=salesreport/viewbuktipotong
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Salesreport/actionViewbuktipotong".' in /var/www/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('Salesreport/act...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/pajak/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pajak/index.php?r=Salesreport/actionViewbuktipotong&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 09:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:24:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:25:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxcontent".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('ajaxcontent')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('ajaxcontent')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/aja...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/ajaxcontent&view=buktiptg
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/30 10:35:45 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getnominal".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(4): CComponent->__call('getnominal', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(4): SalesReportController->getnominal('1')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('1')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 10:36:42 [error] [php] Trying to get property of non-object (/var/www/pajak/protected/controllers/SalesReportController.php:190)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#2 /var/www/pajak/protected/views/salesReport/view.php(51): SalesReportController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(127): require()
+#4 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#7 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#8 unknown(0): SalesReportController->actionView()
+#9 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/controllers/SalesReportController.php (190)
+in /var/www/pajak/protected/views/salesReport/buktiptg.php (4)
+in /var/www/pajak/protected/views/salesReport/view.php (51)
+2013/01/30 10:38:42 [error] [php] Trying to get property of non-object (/var/www/pajak/protected/controllers/SalesReportController.php:190)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#2 /var/www/pajak/protected/views/salesReport/view.php(51): SalesReportController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(127): require()
+#4 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#7 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#8 unknown(0): SalesReportController->actionView()
+#9 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/controllers/SalesReportController.php (190)
+in /var/www/pajak/protected/views/salesReport/buktiptg.php (4)
+in /var/www/pajak/protected/views/salesReport/view.php (51)
+2013/01/30 10:39:03 [error] [php] Trying to get property of non-object (/var/www/pajak/protected/controllers/SalesReportController.php:190)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#2 /var/www/pajak/protected/views/salesReport/view.php(51): SalesReportController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(127): require()
+#4 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#7 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#8 unknown(0): SalesReportController->actionView()
+#9 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/controllers/SalesReportController.php (190)
+in /var/www/pajak/protected/views/salesReport/buktiptg.php (4)
+in /var/www/pajak/protected/views/salesReport/view.php (51)
+2013/01/30 10:42:16 [error] [php] Trying to get property of non-object (/var/www/pajak/protected/controllers/SalesReportController.php:190)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#2 /var/www/pajak/protected/views/salesReport/view.php(51): SalesReportController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(127): require()
+#4 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#7 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#8 unknown(0): SalesReportController->actionView()
+#9 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=1
+in /var/www/pajak/protected/controllers/SalesReportController.php (190)
+in /var/www/pajak/protected/views/salesReport/buktiptg.php (4)
+in /var/www/pajak/protected/views/salesReport/view.php (51)
+2013/01/30 11:32:54 [error] [php] Missing argument 2 for SalesReportController::terbilang(), called in /var/www/pajak/protected/views/salesReport/buktiptg.php on line 6 and defined (/var/www/pajak/protected/controllers/SalesReportController.php:198)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#2 /var/www/pajak/protected/views/salesReport/view.php(51): SalesReportController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(127): require()
+#4 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#7 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#8 unknown(0): SalesReportController->actionView()
+#9 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/controllers/SalesReportController.php (198)
+in /var/www/pajak/protected/views/salesReport/buktiptg.php (6)
+in /var/www/pajak/protected/views/salesReport/view.php (51)
+2013/01/30 11:49:03 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "terbilang".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(6): CComponent->__call('terbilang', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(6): SalesReportController->terbilang('2')
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('2')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/admin
+---
+2013/01/30 12:28:49 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getTerbilang".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(139): CComponent->__call('getTerbilang', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(139): SalesReportController->getTerbilang(50625)
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('2')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+---
+2013/01/30 12:30:20 [error] [php] Undefined variable: row (/var/www/pajak/protected/controllers/SalesReportController.php:186)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#1 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#2 /var/www/pajak/protected/views/salesReport/view.php(51): SalesReportController->renderPartial()
+#3 /var/www/yii/framework/web/CBaseController.php(127): require()
+#4 /var/www/yii/framework/web/CBaseController.php(96): SalesReportController->renderInternal()
+#5 /var/www/yii/framework/web/CController.php(870): SalesReportController->renderFile()
+#6 /var/www/yii/framework/web/CController.php(783): SalesReportController->renderPartial()
+#7 /var/www/pajak/protected/controllers/SalesReportController.php(57): SalesReportController->render()
+#8 unknown(0): SalesReportController->actionView()
+#9 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(134): SalesReportController->runAction()
+#13 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#15 /var/www/yii/framework/web/filters/CInlineFilter.php(59): SalesReportController->filterAccessControl()
+#16 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#17 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /var/www/yii/framework/web/CController.php(266): SalesReportController->runActionWithFilters()
+#19 /var/www/yii/framework/web/CWebApplication.php(283): SalesReportController->run()
+#20 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#21 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /var/www/pajak/index.php(13): CWebApplication->run()
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+in /var/www/pajak/protected/controllers/SalesReportController.php (186)
+in /var/www/pajak/protected/views/salesReport/buktiptg.php (5)
+in /var/www/pajak/protected/views/salesReport/view.php (51)
+2013/01/30 12:32:09 [error] [exception.CException] exception 'CException' with message 'SalesReportController and its behaviors do not have a method or closure named "getTerbilang".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/pajak/protected/views/salesReport/buktiptg.php(139): CComponent->__call('getTerbilang', Array)
+#1 /var/www/pajak/protected/views/salesReport/buktiptg.php(139): SalesReportController->getTerbilang(0)
+#2 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#3 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#4 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#5 /var/www/pajak/protected/views/salesReport/view.php(51): CController->renderPartial('buktiptg', Array, true)
+#6 /var/www/yii/framework/web/CBaseController.php(127): require('/var/www/pajak/...')
+#7 /var/www/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/pajak/...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(870): CBaseController->renderFile('/var/www/pajak/...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#10 /var/www/pajak/protected/controllers/SalesReportController.php(57): CController->render('view', Array)
+#11 [internal function]: SalesReportController->actionView('2')
+#12 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(SalesReportController), Array)
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(SalesReportController), Object(ReflectionMethod), Array)
+#14 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#23 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#24 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/pajak/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/view&id=2
+---
+2013/01/31 10:00:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('viewlembarkedua')
+#8 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/pajak/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/viewlembarkedua&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/31 10:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "viewlembarkedua".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('viewlembarkedua')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('viewlembarkedua')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/vie...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/viewlembarkedua&id=1
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=1
+---
+2013/01/31 10:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lembarkedua".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('lembarkedua')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('lembarkedua')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/lem...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/lembarkedua&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=2
+---
+2013/01/31 10:04:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('lembarkedua')
+#8 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/lem...')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/pajak/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/lembarkedua&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=2
+---
+2013/01/31 10:04:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('lembarkedua')
+#8 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/lem...')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/pajak/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/lembarkedua&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=2
+---
+2013/01/31 10:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "buktiptg".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('buktiptg')
+#1 /var/www/yii/framework/web/CWebApplication.php(283): CController->run('buktiptg')
+#2 /var/www/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('salesReport/buk...')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/pajak/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pajak/index.php?r=salesReport/buktiptg&id=2
+HTTP_REFERER=http://localhost/pajak/index.php?r=salesReport/view&id=2
+---
